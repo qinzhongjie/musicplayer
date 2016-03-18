@@ -8,10 +8,12 @@ $(document).ready(function() {
             if( $(this).children().hasClass('glyphicon-play') ) {
                 $("#Play").children("span").removeClass("glyphicon-play").addClass("glyphicon-pause");
                 Play();
+                $("img").addClass("scroll");
                 }
             }
         else{
             $("#Play").children("span").removeClass("glyphicon-pause").addClass("glyphicon-play");
+            $("img").removeClass("scroll");
             Pause();
             }           
     });// Button cilick
