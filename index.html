@@ -9,7 +9,16 @@
 		<script src="js/jquery-1.11.1.min.js" type="text/javascript" charset="utf-8"></script>
 		<script src="js/audio.js" type="text/javascript" charset="utf-8"></script>
 		<style type="text/css">
-			/*body {background-image: url(img/section5.jpg);}*/
+			body {background-image: url(img/section8.jpg);}
+			img {width: 200px; height: 200px; border-radius: 50%; margin-top: 50px;}
+			.MusicPanel {margin-top: 100px;}
+			.scroll {
+				-webkit-animation: circle 10s infinite linear;
+			}
+			@-webkit-keyframes circle{
+				0%{transform: rotate(0deg);}
+				100%{transform: rotate(360deg);}
+			}
 		</style>
 	</head>
 
@@ -18,7 +27,7 @@
 			<img src="img/icon.jpeg"/><br /><br /><br />
 			<audio src="source/Shakira - Try Everything.mp3" controls="controls" loop="loop"></audio>
 		</center>-->
-
+		<img class="center-block" src="img/icon.jpeg"/>
 		<audio id='audio'>你的浏览器不支持喔！</audio>
 
 		<div class='MusicPanel'>
