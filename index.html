@@ -12,8 +12,14 @@
 		<script src="js/audio.js" type="text/javascript" charset="utf-8"></script>
 		<style type="text/css">
 			body {background-image: url(img/section8.jpg);}
-			img {width: 200px; height: 200px; border-radius: 50%; margin-top: 50px;}
-			.MusicPanel {margin-top: 100px;}
+			
+			img { 
+				width: 200px; height: 200px; border-radius: 50%; margin-top: 50px;box-shadow: 1px 1px 10px #888888;
+				/*-moz-box-shadow:  0 0 10px #CCC;
+				 -webkit-box-shadow:  0 0 10px red;
+				 box-shadow:  0 0 10px #CCC;*/
+			}
+			.MusicPanel {margin-top: 100px;box-shadow: 1px 1px 10px #888888;}
 			.scroll {
 				-webkit-animation: circle 10s infinite linear;
 			}
@@ -25,11 +31,7 @@
 	</head>
 
 	<body>
-		<!--<center class="">
-			<img src="img/icon.jpeg"/><br /><br /><br />
-			<audio src="source/Shakira - Try Everything.mp3" controls="controls" loop="loop"></audio>
-		</center>-->
-		<img class="center-block" src="img/icon.jpeg"/>
+		<div class="image"><img class="center-block" src="img/pic2.jpg"/></div>
 		<audio id='audio'>你的浏览器不支持喔！</audio>
 
 		<div class='MusicPanel'>
